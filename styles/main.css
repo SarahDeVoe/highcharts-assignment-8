@@ -53,7 +53,9 @@ section {
     text-align: center;
 }
 
-
+figure {
+  display:block;
+  max-width: 100%;
 }
 
 footer {
