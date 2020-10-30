@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Murders in the U.S. </title>
+	<link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+
+		<h1>Murders in the United States</h1>
+    <p> By Sarah DeVoe </p>
+
+	</header>
+
+  <article id="us">
+
+  <figure class="highcharts-figure">
+      <div id="container"></div>
+      <p class="highcharts-description">
+          This Hexagonal tilemap is displaying the number of murders in each state.
+          Data used from the U.S. Department of Justice Federal Bureau of Investigation <a href="https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-20">Table 20 Murder by State, Types of Weapons, 2019</a>
+      </p>
+  </figure>
+
+
+<section class="text">
+
+	<h2>The Number of Murders in Each State</h2>
+
+	<p>Throughout the U.S., the number of murders in 2019 ranges from the less than 10 to well above 1,000. The state with the most murders was California, and the state with the least murders was Florida, according to the avilable data. However, it is important to recognize that three of the states, Illinois, Florida, and Alabama, only had limited data available for 2019. The actual number of murders for these states may be higher. When not including these states with limited data, Vermont had the least amount of murders.</p>
+
+
+</section>
+</article>
+<!-- end us -->
+
+<article id="california">
+
+  <figure class="highcharts-figure">
+      <div id="container1"></div>
+      <p class="highcharts-description">
+          This Bar Chart shows the different weapons used in California murders and the frequency of their use.
+          Data used from the U.S. Department of Justice Federal Bureau of Investigation <a href="https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-20">Table 20 Murder by State, Types of Weapons, 2019</a>
+      </p>
+
+  </figure>
+
+<section class="text">
+
+	<h2>Murder Weapons used in California</h2>
+
+	<p>California had the most murders in the U.S. in 2019. The weapons used in these murders included firearms like handguns, rifles and shotguns, as well as knives, cutting instruments, and body parts like hands, fists and feet. Weapons that did not fit in any of these categories were identified as "other." The largest number of murders were done with a handgun, and the second largest number of murders were done with an unknown type of firearm.</p>
+
+</section>
+</article>
+<!-- end california -->
+
+
+<footer>
+	<p>This page is an assignment for the University of Florida course <b>Introduction to Web Apps</b>.</p>
+</footer>
+
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/heatmap.js"></script>
+<script src="https://code.highcharts.com/modules/tilemap.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
