@@ -20,7 +20,7 @@ header {
 
 
 article {
-    padding: 2rem;
+    padding: 1rem;
     margin: 0;
     display: flex;
     align-items: center;
@@ -113,4 +113,10 @@ article a {
 
 a:hover {
     color: #82E8FF;
+}
+
+@media screen and (max-width: 500px) {
+  article{
+    padding: 1rem;
+  }
 }
