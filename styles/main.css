@@ -1,0 +1,115 @@
+/* you will add css rules for element selectors and IDs */
+
+
+/* you may add to or change the body rule */
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: #000;
+    margin: 0;
+}
+
+header {
+    background: #666;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+article {
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#us {
+    background: #FFBD82;
+}
+
+#california {
+    background: #B26219;
+}
+
+
+section {
+    max-width: 600px;
+}
+
+.text {
+    color: #000;
+    background: #fff;
+    padding: 2rem;
+    font-size: 18px;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+
+.text h2 {
+    text-align: center;
+}
+
+
+
+}
+
+footer {
+    background: #666;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 2rem
+
+}
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #379CB2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header a {
+  color: #78c9d9
+}
+
+article a {
+    color: #2b7b8c;
+}
+
+
+#california a {
+    color: #113336;
+}
+
+a:hover {
+    color: #82E8FF;
+}
